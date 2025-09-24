@@ -1,6 +1,3 @@
-This file is the "app/calculator.py" file. It contains a simple calculator that can add, subtract, multiply, 
-and divide numbers based on what the user types.
-
 from app.operations import Operations
 
 def calculator():
