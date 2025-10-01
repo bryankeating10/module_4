@@ -377,3 +377,20 @@ def test_power_positive():
 
     # Assert
     assert result == expected_result, f"Expected {a} ** {b} to be {expected_result}, got {result}"
+
+def test_power_negative_exponent():
+    """
+    Test the power method with a negative exponent.
+    
+    This test verifies that raising a positive number to a negative power returns the correct result.
+    """
+    # Arrange
+    a = 2.0
+    b = -3.0
+    expected_result = 0.125
+
+    # Act
+    result = Operation.power(a, b)
+
+    # Assert
+    assert result == expected_result, f"Expected {a} ** {b} to be {expected_result}, got {result}"
